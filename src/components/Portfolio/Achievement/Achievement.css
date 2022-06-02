@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+:root {
+    --boxGreen: #a3cb38;
+}
+
+.achievementContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+.leftContent {
+    width: 18%;
+    font-size: 4.5em;
+    background-color: var(--boxGreen);
+    padding: 52px 60px;
+    text-align: left;
+    height: 100%;
+    color: white;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+
+.rightContent {
+    position: relative;
+    width: 67%;
+    /* align-items: center; */
+    /* justify-items: center; */
+    left: 11%;
+}
+
+.contentGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 254px);
+    grid-template-rows: repeat(2, 131px);
+    grid-gap: 68px 88px;
+    width: 89%;
+    grid-auto-rows: auto;
+}
+
+.contents {
+    text-align: left;
+}
+
+.topLine {
+    height: 4px;
+    width: 30px;
+    /* left: 0; */
+    background-color: var(--boxGreen);
+    /* z-index: 1; */
+    top: -0.3em;
+}

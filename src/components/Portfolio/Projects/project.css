@@ -7,9 +7,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* height: 100vh; */
     font-family: 'Poppins', sans-serif;
-    padding-bottom: 65px;
+    /* margin-bottom: 105px; */
 }
 
 .projectHeader {
@@ -25,17 +24,18 @@
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 150px);
-    grid-template-rows: repeat(3, 200px);
-    grid-gap: 130px 380px;
-    width: 71%;
+    grid-template-columns: repeat(3, 192px);
+    grid-template-rows: repeat(2, 330px);
+    grid-gap: 30px 266px;
+    width: 67%;
 }
 
 .projectSlides {
     width: 159%;
-    height: 58vh;
+    /* height: 58vh; */
     text-align: left;
     position: relative;
+    /* overflow: auto; */
 }
 
 .projectImage {

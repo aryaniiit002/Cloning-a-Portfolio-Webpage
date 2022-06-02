@@ -1,9 +1,52 @@
-import React from 'react'
+import React from 'react';
+import "./Achievement.css";
+
 
 const Achievement = () => {
-  return (
-    <div>Achievement</div>
-  )
+
+	const descStyle = {
+		fontSize: "18px",
+	};
+
+	const achievements = [
+		{
+			desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae!"
+		},
+		{
+			desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae repellendus cupiditate mollitia, quasi amet sapiente!"
+		},
+		{
+			desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae repellendus cupiditate mollitia, quasi amet sapiente!"
+		},
+		{
+			desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae repellendus cupiditate mollitia, quasi amet sapiente!"
+		},
+		{
+			desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae sapiente!"
+		}
+	]
+
+	const achievementList = achievements.map((data) => {
+		return (
+			<div className="contents">
+				<div className="topLine"></div>
+				<span style={descStyle}>{data.desc}</span>
+			</div>
+		)
+	});
+
+	return (
+		<div className="achievementContainer">
+			<div className="rightContent">
+				<div className="contentGrid">
+					{achievementList}
+				</div>
+			</div>
+			<div className="leftContent">
+				I'm Proud Of
+			</div>
+		</div>
+	)
 }
 
 export default Achievement
