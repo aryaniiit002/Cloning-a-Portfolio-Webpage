@@ -42,7 +42,7 @@ const Education = () => {
 	});
 
 	return (
-		<div className="educationContainer">
+		<div id="education" className="educationContainer">
 			<div className="leftContainer">
 				<img className="BGimage" src={bg} alt="Profile Pic" />
 				<div className="containerHeader">

@@ -4,6 +4,7 @@
 
 .App {
     text-align: center;
+    scroll-behavior: smooth;
 }
 
 .App-header {

@@ -36,7 +36,7 @@ const Achievement = () => {
 	});
 
 	return (
-		<div className="achievementContainer">
+		<div id="achievement" className="achievementContainer">
 			<div className="rightContent">
 				<div className="contentGrid">
 					{achievementList}

@@ -80,7 +80,7 @@ const Project = () => {
 	});
 
 	return (
-		<div className="projectContainer">
+		<div id="projects" className="projectContainer">
 			<div className="projectHeader">
 				My Work
 			</div>

@@ -11,7 +11,7 @@
 }
 
 .leftContent {
-    width: 18%;
+    width: 20%;
     font-size: 4.5em;
     background-color: var(--boxGreen);
     padding: 52px 60px;
@@ -24,9 +24,7 @@
 
 .rightContent {
     position: relative;
-    width: 67%;
-    /* align-items: center; */
-    /* justify-items: center; */
+    width: 46%;
     left: 11%;
 }
 
@@ -35,7 +33,6 @@
     grid-template-columns: repeat(2, 254px);
     grid-template-rows: repeat(2, 131px);
     grid-gap: 68px 88px;
-    width: 89%;
     grid-auto-rows: auto;
 }
 
@@ -46,8 +43,6 @@
 .topLine {
     height: 4px;
     width: 30px;
-    /* left: 0; */
     background-color: var(--boxGreen);
-    /* z-index: 1; */
     top: -0.3em;
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hobbies = () => {
   return (
-    <div>Hobbies</div>
+    <div id="hobbies">Hobbies</div>
   )
 }
 
