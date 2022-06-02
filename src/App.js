@@ -6,7 +6,6 @@ import Portfolio from "./components/Portfolio/Portfolio";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-
 function App() {
 
 	return (
@@ -15,7 +14,7 @@ function App() {
 				<BrowserRouter>
 					<Navbar />
 					<Routes>
-						<Route path="/portfolio" component={Portfolio} />
+						<Route path="/portfolio" element={<Portfolio />} />
 					</Routes>
 				</BrowserRouter>
 			</header>

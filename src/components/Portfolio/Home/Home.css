@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+:root {
+    --boxGreen: #a3cb38;
+}
+
+.homeContainer {
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    align-items: center;
+}
+
+.leftHomeContainer {
+    /* flex: .6; */
+    width: 64%;
+}
+
+.leftContentContainer {
+    width: 55%;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 124px;
+}
+
+.nameContainer {
+    font-family: 'Julius Sans One', sans-serif;
+    margin-bottom: 12px;
+    font-weight: 600;
+    margin-right: 146px;
+}
+
+.homeName {
+    font-size: 3em;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.desc {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.talkbtn {
+    margin-top: 20px;
+    padding: 12px 29px;
+    border-radius: 3px;
+    color: white;
+    background-color: var(--boxGreen);
+    font-size: 13px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.rightHomeContainer {
+    width: 34%;
+    height: 100%;
+}
+
+.rightContentContainer {
+    object-fit: cover;
+    height: 100%;
+    width: 80%;
+}
+
+.image {
+    object-fit: fill;
+    width: 98%;
+    height: 90%;
+}
+
+.box {
+    height: 576px;
+    width: 450px;
+    position: absolute;
+    top: 0px;
+    right: 15em;
+    background-color: var(--boxGreen);
+    z-index: -1;
+}

@@ -6,7 +6,7 @@
     padding: 10px 0px;
     align-items: center;
     position: -webkit-sticky;
-    position: fixed;
+    /* position: fixed; */
 }
 
 .navOptContainer {
@@ -16,7 +16,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    margin-inline: 225px;
+    margin-inline: 14em;
 }
 
 .navOpt {
