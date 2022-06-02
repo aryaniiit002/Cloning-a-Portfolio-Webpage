@@ -1,3 +1,7 @@
+:root {
+    --boxGreen: #a3cb38;
+}
+
 .App {
     text-align: center;
 }

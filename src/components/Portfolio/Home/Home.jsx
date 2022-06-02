@@ -2,6 +2,7 @@ import React from 'react'
 import "./Home.css";
 
 import profilePic from "../../../images/profile-pic.png";
+
 const Home = () => {
 	return (
 		<div id="home" className="homeContainer">
@@ -18,7 +19,7 @@ const Home = () => {
 			</div>
 			<div className="rightHomeContainer">
 				<div className="rightContentContainer">
-					<div class='box'></div>
+					<div className="box"></div>
 					<img className="image" src={profilePic} alt="Profile Pic" />
 				</div>
 			</div>

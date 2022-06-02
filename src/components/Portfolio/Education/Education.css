@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+:root {
+    --boxGreen: #a3cb38;
+}
+
+.educationContainer {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    height: 65vh;
+    margin: 35px 0px;
+}
+
+.leftContainer {
+    width: 40%;
+    text-align: left;
+}
+
+.BGimage {
+    width: 20%;
+    height: 26%;
+    position: absolute;
+}
+
+.containerHeader {
+    position: relative;
+    left: 28%;
+    font-size: 3em;
+    width: 32%;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+
+.rightContainer {
+    width: 37%;
+    text-align: left;
+    height: 100%;
+    line-height: 28px;
+}
+
+.contentDate {}
+
+.contentTitle {}
+
+.contentDesc {}
