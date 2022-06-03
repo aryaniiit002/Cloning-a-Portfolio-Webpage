@@ -1,7 +1,6 @@
 import React from 'react';
 import "./Achievement.css";
 
-
 const Achievement = () => {
 
 	const descStyle = {
