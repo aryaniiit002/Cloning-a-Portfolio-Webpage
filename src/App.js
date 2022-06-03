@@ -15,7 +15,7 @@ function App() {
 				<BrowserRouter>
 					<Navbar />
 					<Routes>
-						<Route path="/portfolio" element={<Portfolio />} />
+						<Route path="/" element={<Portfolio />} />
 					</Routes>
 				</BrowserRouter>
 			</header>

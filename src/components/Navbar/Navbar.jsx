@@ -9,27 +9,27 @@ function Navbar() {
     const location = useLocation();
     const history = useNavigate();
     const path = location.hash;
-    
+
     return (
         <div className="navContainer">
             <div className="navOptContainer">
-                <NavHashLink smooth to="/portfolio#home"
+                <NavHashLink smooth to="/#home"
                     className={`navOpt ${path === "#home" && "select"}`}>
                     HOME
                 </NavHashLink>
-                <NavHashLink smooth to="/portfolio#education"
+                <NavHashLink smooth to="/#education"
                     className={`navOpt ${path === "#education" && "select"}`}>
                     EDUCATION
                 </NavHashLink>
-                <NavHashLink smooth to="/portfolio#achievement"
+                <NavHashLink smooth to="/#achievement"
                     className={`navOpt ${path === "#achievement" && "select"}`}>
                     ACHIEVEMENT
                 </NavHashLink>
-                <NavHashLink smooth to="/portfolio#hobbies"
+                <NavHashLink smooth to="/#hobbies"
                     className={`navOpt ${path === "#hobbies" && "select"}`}>
                     HOBBIES
                 </NavHashLink>
-                <NavHashLink smooth to="/portfolio#contact"
+                <NavHashLink smooth to="/#contact"
                     className={`navOpt ${path === "#contact" && "select"}`}>
                     CONTACT
                 </NavHashLink>
