@@ -34,9 +34,7 @@ const Hobbies = () => {
 	const imageListColumn1 = hobbiesImagesColumn1.map((data) => {
 		return (
 			<>
-				<div className="projectSlides">
-					<img className="projectImage" src={data.img} alt="" /><br />
-				</div>
+				<img className="hobbiesImage" src={data.img} alt="" /><br />
 			</>
 		)
 	});

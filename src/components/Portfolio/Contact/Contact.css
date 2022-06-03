@@ -2,3 +2,53 @@
 :root {
     --boxGreen: #a3cb38;
 }
+
+.contactContainer {
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: 'Poppins', sans-serif;
+}
+
+.leftContactContent {
+    text-align: left;
+    background-color: var(--boxGreen);
+    width: 34%;
+    height: 35vh;
+    position: relative;
+    color: white;
+}
+
+.contactTexts {
+    position: absolute;
+    left: 22%;
+    top: 22%;
+}
+
+.title {
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.email>a {
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.socalIcons {
+    display: inline-flex;
+}
+
+.icons {
+    width: 19px;
+    margin: 8px 4px;
+}
+
+.rightContactContent {
+    position: relative;
+    right: 6.5%;
+    margin-bottom: 49px;
+}
