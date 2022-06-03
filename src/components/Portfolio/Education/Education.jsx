@@ -45,7 +45,7 @@ const Education = () => {
 		<div id="education" className="educationContainer">
 			<div className="leftContainer">
 				<img className="BGimage" src={bg} alt="Profile Pic" />
-				<div className="containerHeader">
+				<div className="educationContainerHeader">
 					My Main Hustle
 				</div>
 			</div>

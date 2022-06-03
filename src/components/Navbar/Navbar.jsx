@@ -8,6 +8,7 @@ function Navbar() {
     const location = useLocation();
     const history = useNavigate();
     const path = location.hash;
+    
     return (
         <div className="navContainer">
             <div className="navOptContainer">

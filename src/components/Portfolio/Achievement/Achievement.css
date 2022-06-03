@@ -12,7 +12,7 @@
 }
 
 .leftContent {
-    width: 20%;
+    width: 5em;
     font-size: 4.5em;
     background-color: var(--boxGreen);
     padding: 52px 60px;
@@ -25,7 +25,6 @@
 
 .rightContent {
     position: relative;
-    width: 46%;
     left: 11%;
 }
 
@@ -34,7 +33,6 @@
     grid-template-columns: repeat(2, 254px);
     grid-template-rows: repeat(2, 131px);
     grid-gap: 68px 88px;
-    grid-auto-rows: auto;
 }
 
 .contents {
@@ -46,4 +44,52 @@
     width: 30px;
     background-color: var(--boxGreen);
     top: -0.3em;
+}
+
+@media screen and (max-width: 1100px) {
+    .achievementContainer {
+        display: flex;
+        flex-direction: column-reverse;
+        font-family: 'Poppins', sans-serif;
+        padding: 25px 0;
+        align-items: center;
+    }
+    .rightContent {
+        left: 0;
+    }
+    .leftContent {
+        width: auto;
+        font-size: 4.5em;
+        background-color: var(--boxGreen);
+        padding: 52px 60px;
+        text-align: left;
+        height: 100%;
+        color: white;
+        font-weight: 600;
+        line-height: 1.2em;
+        margin-bottom: 38px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .leftContent {
+        font-size: 3em;
+    }
+    .contentGrid {
+        grid-template-columns: repeat(2, 232px);
+        grid-gap: 68px 82px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .contentGrid {
+        grid-template-columns: repeat(1, 18em);
+        grid-template-rows: repeat(2, auto);
+    }
+}
+
+@media screen and (max-width:480px) {
+    .leftContent {
+        font-size: 2em;
+    }
 }

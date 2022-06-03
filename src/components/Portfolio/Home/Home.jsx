@@ -19,9 +19,9 @@ const Home = () => {
 			</div>
 			<div className="rightHomeContainer">
 				<div className="rightContentContainer">
-					<div className="box"></div>
 					<img className="image" src={profilePic} alt="Profile Pic" />
 				</div>
+				<div className="box"></div>
 			</div>
 		</div>
 	)
