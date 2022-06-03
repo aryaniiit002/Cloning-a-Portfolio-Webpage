@@ -25,9 +25,9 @@ const Achievement = () => {
 		}
 	]
 
-	const achievementList = achievements.map((data) => {
+	const achievementList = achievements.map((data, i) => {
 		return (
-			<div className="contents">
+			<div key={i} className="contents">
 				<div className="topLine"></div>
 				<span style={descStyle}>{data.desc}</span>
 			</div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Home.css";
 
-import profilePic from "../../../images/profile-pic.png";
+import { profilePic } from '../../../images';
 
 const Home = () => {
 	return (

@@ -1,12 +1,8 @@
 import React from 'react';
 import "./project.css";
 
-import recipe from "../../../images/recipe.png";
-import emoji from "../../../images/emoji.png";
-import guessthenumber from "../../../images/guess-the-number.png";
-import rockpaperscissors from "../../../images/rock-paper-scissors.png";
-import pokemon from "../../../images/pokemon.png";
-import ebirthdaycard from "../../../images/e-birthday-card.png";
+import { recipe, emoji, guessthenumber, rockpaperscissors, pokemon, ebirthdaycard } from '../../../images';
+
 
 const Project = () => {
 
@@ -65,17 +61,15 @@ const Project = () => {
 		},
 	]
 
-	const projectsList = projects.map((data) => {
+	const projectsList = projects.map((data, i) => {
 		return (
-			<>
-				<div className="projectSlides">
-					<div className="topBox"></div>
-					<img className="projectImage" src={data.img} alt="" /><br />
-					<span style={titleStyle}>{data.title}</span><br />
-					<span style={descStyle}>{data.desc}</span><br />
-					<a style={hrefStyle} href={data.href}>SEE PROJECT</a>
-				</div>
-			</>
+			<div key={i} className="projectSlides">
+				<div className="topBox"></div>
+				<img className="projectImage" src={data.img} alt="" /><br />
+				<span style={titleStyle}>{data.title}</span><br />
+				<span style={descStyle}>{data.desc}</span><br />
+				<a style={hrefStyle} href={data.href}>SEE PROJECT</a>
+			</div>
 		)
 	});
 

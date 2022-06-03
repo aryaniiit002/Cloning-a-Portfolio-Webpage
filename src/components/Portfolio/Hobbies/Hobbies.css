@@ -84,7 +84,6 @@
     .rightContentContainerRow {
         display: flex;
         flex-direction: column;
-        /* gap: 11px; */
         align-items: center;
     }
     .column {

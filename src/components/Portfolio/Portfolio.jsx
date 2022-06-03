@@ -1,10 +1,6 @@
 import React from "react";
-import Home from "./Home/Home";
-import Achievement from "./Achievement/Achievement";
-import Project from "./Projects/Project";
-import Education from "./Education/Education";
-import Hobbies from "./Hobbies/Hobbies";
-import Contact from "./Contact/Contact";
+
+import { Home, Achievement, Project, Education, Hobbies, Contact } from './';
 
 const Portfolio = () => {
     return (

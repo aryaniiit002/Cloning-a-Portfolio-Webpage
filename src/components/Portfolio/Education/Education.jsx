@@ -1,14 +1,14 @@
 import React from 'react';
 import "./Education.css";
 
-import bg from "../../../images/bg.png";
+import { bg } from '../../../images';
 
 const Education = () => {
 	const dateStyle = {
 		color: "#a3cb38",
 		fontSize: "33px",
 		fontWeight: "600",
-		
+
 	};
 	const titleStyle = {
 		fontSize: "19px",
@@ -31,9 +31,9 @@ const Education = () => {
 		},
 	]
 
-	const listItems = education.map((data) => {
+	const listItems = education.map((data, i) => {
 		return (
-			<div style={{marginBottom:"14px"}}>
+			<div key={i} style={{ marginBottom: "14px" }}>
 				<span style={dateStyle}>{data.date}</span><br />
 				<span style={titleStyle}>{data.title}</span><br />
 				<span style={descStyle}>{data.desc}</span>

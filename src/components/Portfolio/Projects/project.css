@@ -18,7 +18,6 @@ body {
     flex-direction: column;
     align-items: center;
     font-family: 'Poppins', sans-serif;
-    /* margin-bottom: 105px; */
 }
 
 .projectHeader {
@@ -41,7 +40,6 @@ body {
 }
 
 .projectSlides {
-    /* width: 13em; */
     text-align: left;
     position: relative;
 }

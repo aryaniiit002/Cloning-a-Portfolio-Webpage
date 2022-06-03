@@ -1,9 +1,9 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import "./Contact.css";
 
-import instagram from "../../../images/instagram.png";
-import facebook from "../../../images/facebook.png";
-import youtube from "../../../images/youtube.png";
+import { instagram, facebook, youtube } from '../../../images';
+
 
 const Contact = () => {
 
@@ -19,11 +19,11 @@ const Contact = () => {
 		},
 	]
 
-	const socialList = socialIcons.map((data) => {
+	const socialList = socialIcons.map((data, i) => {
 		return (
-			<>
+			<div key={i}>
 				<img className="icons" src={data.img} alt="" /><br />
-			</>
+			</div>
 		)
 	});
 
@@ -35,7 +35,7 @@ const Contact = () => {
 						Contact
 					</div>
 					<div className="email">
-						<a href
+						<a
 							onClick={() => window.location = 'mailto:rachel.green@gmail.com'}>
 							rachel.green@gmail.com
 						</a>

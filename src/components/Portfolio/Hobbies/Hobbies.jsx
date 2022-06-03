@@ -1,12 +1,7 @@
 import React from 'react';
 import "./Hobbies.css";
 
-
-import guitar from "../../../images/guitar.png";
-import friends from "../../../images/friends.png";
-import badminton from "../../../images/badminton.png";
-import painting from "../../../images/painting.png";
-import reading from "../../../images/reading.png";
+import { badminton, guitar, friends, painting, reading } from '../../../images';
 
 
 const Hobbies = () => {
@@ -31,18 +26,18 @@ const Hobbies = () => {
 		},
 	]
 
-	const imageListColumn1 = hobbiesImagesColumn1.map((data) => {
+	const imageListColumn1 = hobbiesImagesColumn1.map((data, i) => {
 		return (
-			<>
+			<div key={i}>
 				<img className="hobbiesImage" src={data.img} alt="" /><br />
-			</>
+			</div>
 		)
 	});
-	const imageListColumn2 = hobbiesImagesColumn2.map((data) => {
+	const imageListColumn2 = hobbiesImagesColumn2.map((data, i) => {
 		return (
-			<>
+			<div key={i}>
 				<img className="hobbiesImage" src={data.img} alt="" /><br />
-			</>
+			</div>
 		)
 	});
 
